@@ -33,7 +33,7 @@ class Dashboard:
         # Speed
         self.headerSpeed = tk.Label(self.dashboard, text=f"MPH", font=("Trebuchet MS", 40), bg="black", fg="yellow", anchor="s", padx=5, pady=5)
         self.headerSpeed.grid(row=0, column=0, sticky="nsew", padx=(self.padxOut,self.padxIn))
-        self.lblSpeed = tk.Label(self.dashboard, text=f"...", font=("Trebuchet MS", 150), bg="#ac75d9", fg="black", anchor="center", padx=5, pady=5)
+        self.lblSpeed = tk.Label(self.dashboard, text=f"...", font=("Trebuchet MS", 150), bg="#49a7d8", fg="black", anchor="center", padx=5, pady=5)
         self.lblSpeed.grid(row=1, column=0, sticky="nsew", rowspan=2, padx=(self.padxOut,self.padxIn))
 
         # Vehicle state
